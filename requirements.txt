@@ -19,3 +19,5 @@ certifi==2017.4.17
 pytz==2011k
 cryptography==2.1.4
 asn1crypto==0.21.0
+
+pandas==0.22.0
