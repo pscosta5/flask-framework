@@ -13,6 +13,9 @@ def stock_data(stock_ticker):
     data = quandl.get_table('WIKI/PRICES', qopts = { 'columns': ['date', 'close'] }, ticker = stock_ticker, date = { 'gte': '2018-02-27', 'lte': '2018-03-27' })
 
     return data
+@app.route('/', methods=['POST', 'GET'])
+def main():
+    return redirect('/form')
 
 
 @app.route('/form', methods=['POST', 'GET'])
