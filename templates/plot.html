@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+{% if p %}
+  Here is a plot
+{% else %}
+  Put in a stock :)
+{% endif %}
+
+{{ script|safe }}
+{{ div|safe }}
+<br/>
+Click <a href="http://127.0.0.1:33507/form"> here to choose another stock
+
+{% endblock %}
