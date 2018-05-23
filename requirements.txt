@@ -1,5 +1,6 @@
 gunicorn==19.7.1
 requests==2.18.4
+flask==0.2.12
 
 PyYAML==3.10
 python-dateutil==2.1
