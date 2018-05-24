@@ -2,7 +2,7 @@ gunicorn==19.8.1
 requests==2.18.4
 Quandl==3.3.0
 
-pandas==1.11.0
+pandas==0.22.0
 bokeh==0.12.13
 dill==0.2.7.1
 flask==0.12.2
