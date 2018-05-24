@@ -31,7 +31,7 @@ def index():
       #show(p)
 
 
-      return render_template('plot_test2.html', script=script, div=div, stock_ticker=stock_ticker, closing_price_month=closing_price_month.head())
+      return render_template('plot_test.html', script=script, div=div, stock_ticker=stock_ticker, closing_price_month=closing_price_month.head())
   else:
 
       return render_template("form.html")
