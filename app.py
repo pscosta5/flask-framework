@@ -44,4 +44,4 @@ def about():
 # With debug=True, Flask server will auto-reload
 
 if __name__ == '__main__':
-  app.run(port=33507, threaded=True, debug=True)
+  app.run(port=33507)
