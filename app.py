@@ -28,7 +28,7 @@ def index():
       p = figure(title="Last month closing price", x_axis_label='Date', y_axis_label='Price', x_axis_type='datetime')
       p.line(closing_price_month['date'], closing_price_month['close'], line_width=6, line_color='#0f9d58')
       script, div = components(p)
-      #show(p)
+      show(p)
 
 
       return render_template('plot.html', script=script, div=div, stock_ticker=stock_ticker)
